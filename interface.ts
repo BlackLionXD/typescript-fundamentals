@@ -7,14 +7,14 @@ interface Person{
     isAdult?: boolean
 }
 
-let person1: Person = {
+var person1: Person = {
     name: 'Ibro',
     age: 25,
     salary: 10000,
     isAdult: true
 }
 
-let person2: Person = {
+var person2: Person = {
     name: 'Charlie',
     age: 38
 }
@@ -27,7 +27,7 @@ interface Dog extends Animal {
     breed: string;
 }
 
-let dog: Dog = {
+var dog: Dog = {
     name: 'Buddy',
     breed: 'Labrador'
 };
@@ -38,7 +38,7 @@ interface Sum {
     add: () => void;
 }
 
-let Calculate: Sum = {
+var Calculate: Sum = {
     x: 10,
     y: 5,
     add: function() {
